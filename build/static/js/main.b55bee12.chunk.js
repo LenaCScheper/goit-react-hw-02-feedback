@@ -1,0 +1,2 @@
+(this["webpackJsonpgoit-react-hw-02-feedback"]=this["webpackJsonpgoit-react-hw-02-feedback"]||[]).push([[0],[,,,function(e,t){},function(e,t,n){e.exports=n(5)},function(e,t,n){"use strict";n.r(t);var c=n(0),o=n.n(c),r=n(2),a=n.n(r),i=n(3),s=n.n(i);a.a.render(o.a.createElement(s.a,null),document.querySelector("#root"))}],[[4,1,2]]]);
+//# sourceMappingURL=main.b55bee12.chunk.js.map
