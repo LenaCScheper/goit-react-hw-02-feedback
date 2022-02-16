@@ -24,12 +24,12 @@ export default class App extends Component {
 		return Math.round(percentage);
 	};
 
-	onLeaveFeedback = (e) => {
-		const name = e.target.name;
+	onLeaveFeedback = (key) => { 
+
 		this.setState((prevState) => ({
-			[name]: prevState[name] + 1
-		}));
-	};
+		   [key]: prevState[key] + 1,
+		 }))
+	   };
 	render() {
 		const { good, neutral, bad } = this.state;
 		const total = this.countTotalFeedback();
